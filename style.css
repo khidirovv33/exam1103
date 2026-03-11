@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navigation{
+position: relative;
+top: 40px;
+    padding: 20px;
+    z-index: 2;
+}
+
+.menu{
+      display: flex;
+    justify-content:baseline;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.box-logo{
+ position: relative;
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    list-style: none;
+}
+.logo1{
+    position: absolute;
+}
+    .logo2{
+        position: absolute;
+        top: -40px;
+        left: 80px;
+    }
+    .logo3{
+        position: absolute;
+           top: 10px;
+         left: 80px;
+    }
+    .logo-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+    }
+
+    .block-center{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .block-menu1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        list-style: none;
+    }
+    .btn-menu button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+        gap: 10px;
+        background-color: #5EB083;
+        border-radius: 50px;
+        border: none;
+        color: white;
+    }
+.container1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .cont-conter1{
+         display: flex;
+     justify-content: space-around;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .group-text1 h1{
+font-weight: 100;
+
+    }
+      .group-text1 span{
+        color: #45a972;
+      }
+      .btn-cont1 button{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+        gap: 10px;
+        background-color: #FFBB8A;
+        border-radius: 50px;
+        border: none;
+        color: white; 
+      }
+      .btn-cont1{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.521);
+      }
+      .img-conter1{
+        position: relative;
+        top: -100px;
+        left: 80px;
+        width: 700px;
+        z-index: 1;
+      }
