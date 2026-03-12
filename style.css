@@ -885,4 +885,78 @@ right: 50px;
 }
 
  }
- 
+ .container6{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+ }
+ .text-conter6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+ }
+
+.btn-cont6 button{
+display: flex;
+gap: 20px;
+font-size: 15px;
+        color: rgb(255, 254, 254);
+    border: none;
+   border-radius: 40px;
+    padding: 30px 40px;
+    background-color:#FFBB8A;
+    cursor: pointer;
+ }
+ .backcolor-blue{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #F6FAFF;
+ }
+ .box-colorblue{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+ }
+ .client-cont6{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 40px 40px;
+    background-color: #FFF6EF;
+    border-radius: 20px;
+ }
+ .testimon{
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-weight: 100;
+ }
+ .group-cont6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+ }
+ .group-cont6{
+    background-color: white;
+    width: 250px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   border-radius: 20px;
+ }
+ .conter-conter6{
+    display: flex;
+   
+    gap: 30px;
+ }
+ .text-yellow-back{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
