@@ -498,6 +498,37 @@ background: #1e201f9d;
     height: 250px;
 }
 @media(max-width: 600px){
+.img-conter3{
+    display: none;
+}
+.img-conter013{
+    display: none;
+}
+.text-box-cont02 h1{
+    font-size: 40px;
+}
+.container3{
+    background-color: #FFBB8A;
+}
+.text-box-cont02 p{
+    font-size: 20px;
+}
+.img-conter03 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+position: relative;
+right: 50px;
+z-index: 1;
+}
+.img-conter003 button{
+    position: absolute;
 
-    
+z-index: 2;
+ top: 3040px;
+}
+.img-conter03 p{
+    margin-left: -100px;
+}
+
 }
